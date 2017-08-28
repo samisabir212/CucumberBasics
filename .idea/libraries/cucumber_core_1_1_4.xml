@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="cucumber-core-1.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/cucumber-core-1.1.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/cucumber-java-1.1.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/cucumber-junit-1.1.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/cucumber-jvm-deps-1.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/gherkin-2.12.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/jchronic-0.2.6.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Cucumber/junit-4.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
