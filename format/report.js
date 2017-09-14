@@ -1,23 +1,22 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("com\\w2a\\cucumber\\developer.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("com/w2a/cucumber/developer.feature");
 formatter.feature({
-  "id": "life-of-a-developer",
-  "description": "\r\nIn order to get a high paid job\r\nAs a Developer\r\nI want to learn AdvanceJava",
+  "line": 1,
   "name": "Life of a Developer",
-  "keyword": "Feature",
-  "line": 1
+  "description": "\r\nIn order to get a high paid job\r\nAs a Developer\r\nI want to learn AdvanceJava",
+  "id": "life-of-a-developer",
+  "keyword": "Feature"
 });
 formatter.scenario({
-  "id": "life-of-a-developer;i-am-a-java-developer;;2",
-  "description": "",
-  "name": "I am a Java Developer",
-  "keyword": "Scenario Outline",
   "line": 19,
-  "type": "scenario"
+  "name": "I am a Java Developer",
+  "description": "",
+  "id": "life-of-a-developer;i-am-a-java-developer;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "I am a \"CoreJava\" Developer",
-  "keyword": "Given ",
   "line": 8,
+  "name": "I am a \"CoreJava\" Developer",
   "matchedColumns": [
     0
   ],
@@ -43,36 +42,37 @@ formatter.step({
       ],
       "line": 11
     }
-  ]
+  ],
+  "keyword": "Given "
 });
 formatter.step({
+  "line": 12,
   "name": "I apply for a Developer Job",
-  "keyword": "When ",
-  "line": 12
+  "keyword": "When "
 });
 formatter.step({
-  "name": "I got a \"less\" paid job in Development",
-  "keyword": "Then ",
   "line": 13,
+  "name": "I got a \"less\" paid job in Development",
   "matchedColumns": [
     1
-  ]
+  ],
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "I am \"not\" satisfied with my salary in Development",
-  "keyword": "And ",
   "line": 14,
+  "name": "I am \"not\" satisfied with my salary in Development",
   "matchedColumns": [
     2
-  ]
+  ],
+  "keyword": "And "
 });
 formatter.step({
-  "name": "my parents are \"still\" satisfied with the salary in Development",
-  "keyword": "But ",
   "line": 15,
+  "name": "my parents are \"still\" satisfied with the salary in Development",
   "matchedColumns": [
     3
-  ]
+  ],
+  "keyword": "But "
 });
 formatter.match({
   "arguments": [
@@ -84,14 +84,14 @@ formatter.match({
   "location": "developerSteps.I_am_a_Java_Developer(String,DataTable)"
 });
 formatter.result({
-  "duration": 152190718,
+  "duration": 160470356,
   "status": "passed"
 });
 formatter.match({
   "location": "developerSteps.I_apply_for_a_Developer_Job()"
 });
 formatter.result({
-  "duration": 66094,
+  "duration": 59928,
   "status": "passed"
 });
 formatter.match({
@@ -104,7 +104,7 @@ formatter.match({
   "location": "developerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 128903,
+  "duration": 65674,
   "status": "passed"
 });
 formatter.match({
@@ -117,7 +117,7 @@ formatter.match({
   "location": "developerSteps.I_am_not_satisfied_with_my_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 108377,
+  "duration": 230135,
   "status": "passed"
 });
 formatter.match({
@@ -130,21 +130,20 @@ formatter.match({
   "location": "developerSteps.my_parents_are_still_satisfied_with_the_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 103862,
+  "duration": 68754,
   "status": "passed"
 });
 formatter.scenario({
-  "id": "life-of-a-developer;i-am-a-java-developer;;3",
-  "description": "",
-  "name": "I am a Java Developer",
-  "keyword": "Scenario Outline",
   "line": 20,
-  "type": "scenario"
+  "name": "I am a Java Developer",
+  "description": "",
+  "id": "life-of-a-developer;i-am-a-java-developer;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "I am a \"AdvanceJava\" Developer",
-  "keyword": "Given ",
   "line": 8,
+  "name": "I am a \"AdvanceJava\" Developer",
   "matchedColumns": [
     0
   ],
@@ -170,36 +169,37 @@ formatter.step({
       ],
       "line": 11
     }
-  ]
+  ],
+  "keyword": "Given "
 });
 formatter.step({
+  "line": 12,
   "name": "I apply for a Developer Job",
-  "keyword": "When ",
-  "line": 12
+  "keyword": "When "
 });
 formatter.step({
-  "name": "I got a \"high\" paid job in Development",
-  "keyword": "Then ",
   "line": 13,
+  "name": "I got a \"high\" paid job in Development",
   "matchedColumns": [
     1
-  ]
+  ],
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "I am \"very\" satisfied with my salary in Development",
-  "keyword": "And ",
   "line": 14,
+  "name": "I am \"very\" satisfied with my salary in Development",
   "matchedColumns": [
     2
-  ]
+  ],
+  "keyword": "And "
 });
 formatter.step({
-  "name": "my parents are \"highly\" satisfied with the salary in Development",
-  "keyword": "But ",
   "line": 15,
+  "name": "my parents are \"highly\" satisfied with the salary in Development",
   "matchedColumns": [
     3
-  ]
+  ],
+  "keyword": "But "
 });
 formatter.match({
   "arguments": [
@@ -211,14 +211,14 @@ formatter.match({
   "location": "developerSteps.I_am_a_Java_Developer(String,DataTable)"
 });
 formatter.result({
-  "duration": 347300,
+  "duration": 1396823,
   "status": "passed"
 });
 formatter.match({
   "location": "developerSteps.I_apply_for_a_Developer_Job()"
 });
 formatter.result({
-  "duration": 52957,
+  "duration": 45692,
   "status": "passed"
 });
 formatter.match({
@@ -231,7 +231,7 @@ formatter.match({
   "location": "developerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 84977,
+  "duration": 146155,
   "status": "passed"
 });
 formatter.match({
@@ -244,7 +244,7 @@ formatter.match({
   "location": "developerSteps.I_am_not_satisfied_with_my_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 70610,
+  "duration": 51661,
   "status": "passed"
 });
 formatter.match({
@@ -257,29 +257,28 @@ formatter.match({
   "location": "developerSteps.my_parents_are_still_satisfied_with_the_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 72662,
+  "duration": 59423,
   "status": "passed"
 });
-formatter.uri("com\\w2a\\cucumber\\tester.feature");
+formatter.uri("com/w2a/cucumber/tester.feature");
 formatter.feature({
-  "id": "life-of-a-tester",
-  "description": "\r\nIn order to get a high paid job\r\nAs a tester\r\nI want to learn Automation testing",
+  "line": 1,
   "name": "Life of a Tester",
-  "keyword": "Feature",
-  "line": 1
+  "description": "\r\nIn order to get a high paid job\r\nAs a tester\r\nI want to learn Automation testing",
+  "id": "life-of-a-tester",
+  "keyword": "Feature"
 });
 formatter.scenario({
-  "id": "life-of-a-tester;i-am-a-tester;;2",
-  "description": "",
-  "name": "I am a Tester",
-  "keyword": "Scenario Outline",
   "line": 19,
-  "type": "scenario"
+  "name": "I am a Tester",
+  "description": "",
+  "id": "life-of-a-tester;i-am-a-tester;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "I am a \"Manual\" Tester",
-  "keyword": "Given ",
   "line": 8,
+  "name": "I am a \"Manual\" Tester",
   "matchedColumns": [
     0
   ],
@@ -305,36 +304,37 @@ formatter.step({
       ],
       "line": 11
     }
-  ]
+  ],
+  "keyword": "Given "
 });
 formatter.step({
+  "line": 12,
   "name": "I apply for a Job",
-  "keyword": "When ",
-  "line": 12
+  "keyword": "When "
 });
 formatter.step({
-  "name": "I got a \"less\" paid job",
-  "keyword": "Then ",
   "line": 13,
+  "name": "I got a \"less\" paid job",
   "matchedColumns": [
     1
-  ]
+  ],
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "I am \"not\" satisfied with my salary",
-  "keyword": "And ",
   "line": 14,
+  "name": "I am \"not\" satisfied with my salary",
   "matchedColumns": [
     2
-  ]
+  ],
+  "keyword": "And "
 });
 formatter.step({
-  "name": "my parents are \"still\" satisfied with the salary",
-  "keyword": "But ",
   "line": 15,
+  "name": "my parents are \"still\" satisfied with the salary",
   "matchedColumns": [
     3
-  ]
+  ],
+  "keyword": "But "
 });
 formatter.match({
   "arguments": [
@@ -346,14 +346,14 @@ formatter.match({
   "location": "testerSteps.I_am_a_Manual_Tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 476203,
+  "duration": 345504,
   "status": "passed"
 });
 formatter.match({
   "location": "testerSteps.I_apply_for_a_Job()"
 });
 formatter.result({
-  "duration": 63631,
+  "duration": 38025,
   "status": "passed"
 });
 formatter.match({
@@ -366,7 +366,7 @@ formatter.match({
   "location": "testerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 79231,
+  "duration": 71357,
   "status": "passed"
 });
 formatter.match({
@@ -379,7 +379,7 @@ formatter.match({
   "location": "testerSteps.I_am_not_satisfied_with_my_salary(String)"
 });
 formatter.result({
-  "duration": 154355,
+  "duration": 53491,
   "status": "passed"
 });
 formatter.match({
@@ -392,21 +392,20 @@ formatter.match({
   "location": "testerSteps.my_parents_are_still_satisfied_with_the_salary(String)"
 });
 formatter.result({
-  "duration": 85388,
+  "duration": 70432,
   "status": "passed"
 });
 formatter.scenario({
-  "id": "life-of-a-tester;i-am-a-tester;;3",
-  "description": "",
-  "name": "I am a Tester",
-  "keyword": "Scenario Outline",
   "line": 20,
-  "type": "scenario"
+  "name": "I am a Tester",
+  "description": "",
+  "id": "life-of-a-tester;i-am-a-tester;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "I am a \"Automation\" Tester",
-  "keyword": "Given ",
   "line": 8,
+  "name": "I am a \"Automation\" Tester",
   "matchedColumns": [
     0
   ],
@@ -432,36 +431,37 @@ formatter.step({
       ],
       "line": 11
     }
-  ]
+  ],
+  "keyword": "Given "
 });
 formatter.step({
+  "line": 12,
   "name": "I apply for a Job",
-  "keyword": "When ",
-  "line": 12
+  "keyword": "When "
 });
 formatter.step({
-  "name": "I got a \"high\" paid job",
-  "keyword": "Then ",
   "line": 13,
+  "name": "I got a \"high\" paid job",
   "matchedColumns": [
     1
-  ]
+  ],
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "I am \"very\" satisfied with my salary",
-  "keyword": "And ",
   "line": 14,
+  "name": "I am \"very\" satisfied with my salary",
   "matchedColumns": [
     2
-  ]
+  ],
+  "keyword": "And "
 });
 formatter.step({
-  "name": "my parents are \"highly\" satisfied with the salary",
-  "keyword": "But ",
   "line": 15,
+  "name": "my parents are \"highly\" satisfied with the salary",
   "matchedColumns": [
     3
-  ]
+  ],
+  "keyword": "But "
 });
 formatter.match({
   "arguments": [
@@ -473,14 +473,14 @@ formatter.match({
   "location": "testerSteps.I_am_a_Manual_Tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 258217,
+  "duration": 231839,
   "status": "passed"
 });
 formatter.match({
   "location": "testerSteps.I_apply_for_a_Job()"
 });
 formatter.result({
-  "duration": 43515,
+  "duration": 47784,
   "status": "passed"
 });
 formatter.match({
@@ -493,7 +493,7 @@ formatter.match({
   "location": "testerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 89493,
+  "duration": 77045,
   "status": "passed"
 });
 formatter.match({
@@ -506,7 +506,7 @@ formatter.match({
   "location": "testerSteps.I_am_not_satisfied_with_my_salary(String)"
 });
 formatter.result({
-  "duration": 165440,
+  "duration": 80836,
   "status": "passed"
 });
 formatter.match({
@@ -519,21 +519,20 @@ formatter.match({
   "location": "testerSteps.my_parents_are_still_satisfied_with_the_salary(String)"
 });
 formatter.result({
-  "duration": 146555,
+  "duration": 81606,
   "status": "passed"
 });
 formatter.scenario({
-  "id": "life-of-a-tester;i-am-a-tester;;4",
-  "description": "",
-  "name": "I am a Tester",
-  "keyword": "Scenario Outline",
   "line": 21,
-  "type": "scenario"
+  "name": "I am a Tester",
+  "description": "",
+  "id": "life-of-a-tester;i-am-a-tester;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "I am a \"Database\" Tester",
-  "keyword": "Given ",
   "line": 8,
+  "name": "I am a \"Database\" Tester",
   "matchedColumns": [
     0
   ],
@@ -559,36 +558,37 @@ formatter.step({
       ],
       "line": 11
     }
-  ]
+  ],
+  "keyword": "Given "
 });
 formatter.step({
+  "line": 12,
   "name": "I apply for a Job",
-  "keyword": "When ",
-  "line": 12
+  "keyword": "When "
 });
 formatter.step({
-  "name": "I got a \"avg\" paid job",
-  "keyword": "Then ",
   "line": 13,
+  "name": "I got a \"avg\" paid job",
   "matchedColumns": [
     1
-  ]
+  ],
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "I am \"average\" satisfied with my salary",
-  "keyword": "And ",
   "line": 14,
+  "name": "I am \"average\" satisfied with my salary",
   "matchedColumns": [
     2
-  ]
+  ],
+  "keyword": "And "
 });
 formatter.step({
-  "name": "my parents are \"dangling\" satisfied with the salary",
-  "keyword": "But ",
   "line": 15,
+  "name": "my parents are \"dangling\" satisfied with the salary",
   "matchedColumns": [
     3
-  ]
+  ],
+  "keyword": "But "
 });
 formatter.match({
   "arguments": [
@@ -600,14 +600,14 @@ formatter.match({
   "location": "testerSteps.I_am_a_Manual_Tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 262732,
+  "duration": 208692,
   "status": "passed"
 });
 formatter.match({
   "location": "testerSteps.I_apply_for_a_Job()"
 });
 formatter.result({
-  "duration": 39820,
+  "duration": 33097,
   "status": "passed"
 });
 formatter.match({
@@ -620,7 +620,7 @@ formatter.match({
   "location": "testerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 74714,
+  "duration": 87231,
   "status": "passed"
 });
 formatter.match({
@@ -633,7 +633,7 @@ formatter.match({
   "location": "testerSteps.I_am_not_satisfied_with_my_salary(String)"
 });
 formatter.result({
-  "duration": 114535,
+  "duration": 78951,
   "status": "passed"
 });
 formatter.match({
@@ -646,7 +646,7 @@ formatter.match({
   "location": "testerSteps.my_parents_are_still_satisfied_with_the_salary(String)"
 });
 formatter.result({
-  "duration": 183092,
+  "duration": 272985,
   "status": "passed"
 });
 });
