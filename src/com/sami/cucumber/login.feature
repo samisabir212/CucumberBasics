@@ -10,17 +10,14 @@ I want to enter correct username and password
 
 Scenario: in order to verify the login to facebook
 
-Given user navigates to facebook website
-When user validates the homepage title
-Then user entered valid username
-And user entered valid password
+Given user navigates to facebook website1
+When user "validates" the homepage title1
+Then user entered "valid" username
+And user entered "valid" password
 Then user should be successfully logged in
 
-Scenario: in order to verify the login to facebook as invalid user
+Examples:
 
-Given user navigates to facebook website
-When user validates the homepage title
-Then user entered invalid username
-And user entered invalid password
-Then user should not be successfully logged in
-
+| username | password | loginType|
+| valid    | valid    | should   |
+| invalid  | invalid  | shouldnot|

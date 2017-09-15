@@ -22,8 +22,11 @@ public class testerSteps {
 		
 		
 		System.out.println("########################");
-		System.out.println("@Given -- I am a "+testerType+" Tester "+" Contract Type "+data.get(0).get("Contract")+" Country "+data.get(0).get("Country"));
-		System.out.println("@Given -- I am a "+testerType+" Tester "+" Contract Type "+data.get(1).get("Contract")+" Country "+data.get(1).get("Country"));
+		System.out.println("@Given -- I am a "+testerType+" Tester "+" " +
+				"Contract Type "+data.get(0).get("Contract")+" Country "+data.get(0).get("Country"));
+
+		System.out.println("@Given -- I am a "+testerType+" Tester "+" " +
+				"Contract Type "+data.get(1).get("Contract")+" Country "+data.get(1).get("Country"));
 		
 	}
 	

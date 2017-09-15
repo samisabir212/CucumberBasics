@@ -11,6 +11,8 @@
       <root url="jar://$USER_HOME$/Desktop/Cucumber/junit-4.11.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/cucumber-core-1.1.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -11,26 +11,26 @@ import cucumber.api.java.en.When;
 public class Loggin_step {
 
 
-    @Given("^user navigates to facebook website$")
-    public void user_navigates_to_facebook_website() throws Throwable {
+    @Given("^user navigates to facebook website1$")
+    public void user_navigates_to_facebook_website1() throws Throwable {
 
         System.out.println("@Given navigate to facebook.com");
     }
 
-    @When("^user [a-zA-Z]{1,}  the homepage title$")
-    public void user_validates_the_homepage_title() throws Throwable {
+    @When("^user \"([a-zA-Z]{1,})\"  the homepage title1$")
+    public void user_validates_the_homepage_title1() throws Throwable {
         System.out.println("@when user validates homepage title");
 
     }
 
-    @Then("^user entered [a-zA-Z]{1,}  username$")
+    @Then("^user entered \"([a-zA-Z]{1,})\" username$")
     public void user_entered_valid_username(String username) throws Throwable {
 
         System.out.println("@Then user enters" + username + "username");
 
     }
 
-    @And("^user entered [a-zA-Z]{1,}  password$")
+    @And("^user entered \"([a-zA-Z]{1,})\"  password$")
     public void user_entered_valid_password(String password) throws Throwable {
 
         System.out.println("@And user enters" + password + "password");
@@ -47,26 +47,26 @@ public class Loggin_step {
 
     /***********invalid data scenerio***********/
 
-    @Given("^user navigates to facebook website$")
-    public void user_navigates_to_facebook_website() throws Throwable {
+    @Given("^user navigates to facebook website2$")
+    public void user_navigates_to_facebook_website2() throws Throwable {
 
         System.out.println("@Given navigate to facebook.com");
     }
 
-    @When("^user validates the homepage title$")
-    public void user_validates_the_homepage_title() throws Throwable {
+    @When("^user validates the homepage title2$")
+    public void user_validates_the_homepage_title2() throws Throwable {
         System.out.println("@when user validates homepage title");
 
     }
 
-    @Then("^user entered ([a-zA-Z]{1,}) username$")
+    @Then("^user entered \"([a-zA-Z]{1,})\" username$")
     public void user_entered_invalid_username(String username) throws Throwable {
 
         System.out.println("@Then user enters" + username + "username");
 
     }
 
-    @And("^user entered ([a-zA-Z]{1,})  password$")
+    @And("^user entered \"([a-zA-Z]{1,})\"  password$")
     public void user_entered_invalid_password(String password) throws Throwable {
 
         System.out.println("@And user enters" + password + "password");

@@ -84,14 +84,14 @@ formatter.match({
   "location": "developerSteps.I_am_a_Java_Developer(String,DataTable)"
 });
 formatter.result({
-  "duration": 160470356,
+  "duration": 86530183,
   "status": "passed"
 });
 formatter.match({
   "location": "developerSteps.I_apply_for_a_Developer_Job()"
 });
 formatter.result({
-  "duration": 59928,
+  "duration": 70060,
   "status": "passed"
 });
 formatter.match({
@@ -104,7 +104,7 @@ formatter.match({
   "location": "developerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 65674,
+  "duration": 107385,
   "status": "passed"
 });
 formatter.match({
@@ -117,7 +117,7 @@ formatter.match({
   "location": "developerSteps.I_am_not_satisfied_with_my_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 230135,
+  "duration": 570611,
   "status": "passed"
 });
 formatter.match({
@@ -130,7 +130,7 @@ formatter.match({
   "location": "developerSteps.my_parents_are_still_satisfied_with_the_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 68754,
+  "duration": 100264,
   "status": "passed"
 });
 formatter.scenario({
@@ -211,14 +211,14 @@ formatter.match({
   "location": "developerSteps.I_am_a_Java_Developer(String,DataTable)"
 });
 formatter.result({
-  "duration": 1396823,
+  "duration": 278605,
   "status": "passed"
 });
 formatter.match({
   "location": "developerSteps.I_apply_for_a_Developer_Job()"
 });
 formatter.result({
-  "duration": 45692,
+  "duration": 25124,
   "status": "passed"
 });
 formatter.match({
@@ -231,7 +231,7 @@ formatter.match({
   "location": "developerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 146155,
+  "duration": 125886,
   "status": "passed"
 });
 formatter.match({
@@ -244,7 +244,7 @@ formatter.match({
   "location": "developerSteps.I_am_not_satisfied_with_my_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 51661,
+  "duration": 89448,
   "status": "passed"
 });
 formatter.match({
@@ -257,7 +257,7 @@ formatter.match({
   "location": "developerSteps.my_parents_are_still_satisfied_with_the_salary_in_Development(String)"
 });
 formatter.result({
-  "duration": 59423,
+  "duration": 93804,
   "status": "passed"
 });
 formatter.uri("com/w2a/cucumber/tester.feature");
@@ -346,14 +346,14 @@ formatter.match({
   "location": "testerSteps.I_am_a_Manual_Tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 345504,
+  "duration": 607552,
   "status": "passed"
 });
 formatter.match({
   "location": "testerSteps.I_apply_for_a_Job()"
 });
 formatter.result({
-  "duration": 38025,
+  "duration": 138039,
   "status": "passed"
 });
 formatter.match({
@@ -366,7 +366,7 @@ formatter.match({
   "location": "testerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 71357,
+  "duration": 75880,
   "status": "passed"
 });
 formatter.match({
@@ -379,7 +379,7 @@ formatter.match({
   "location": "testerSteps.I_am_not_satisfied_with_my_salary(String)"
 });
 formatter.result({
-  "duration": 53491,
+  "duration": 161305,
   "status": "passed"
 });
 formatter.match({
@@ -392,7 +392,7 @@ formatter.match({
   "location": "testerSteps.my_parents_are_still_satisfied_with_the_salary(String)"
 });
 formatter.result({
-  "duration": 70432,
+  "duration": 113091,
   "status": "passed"
 });
 formatter.scenario({
@@ -473,14 +473,14 @@ formatter.match({
   "location": "testerSteps.I_am_a_Manual_Tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 231839,
+  "duration": 525641,
   "status": "passed"
 });
 formatter.match({
   "location": "testerSteps.I_apply_for_a_Job()"
 });
 formatter.result({
-  "duration": 47784,
+  "duration": 200365,
   "status": "passed"
 });
 formatter.match({
@@ -493,7 +493,7 @@ formatter.match({
   "location": "testerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 77045,
+  "duration": 181540,
   "status": "passed"
 });
 formatter.match({
@@ -506,7 +506,7 @@ formatter.match({
   "location": "testerSteps.I_am_not_satisfied_with_my_salary(String)"
 });
 formatter.result({
-  "duration": 80836,
+  "duration": 83010,
   "status": "passed"
 });
 formatter.match({
@@ -519,7 +519,7 @@ formatter.match({
   "location": "testerSteps.my_parents_are_still_satisfied_with_the_salary(String)"
 });
 formatter.result({
-  "duration": 81606,
+  "duration": 93688,
   "status": "passed"
 });
 formatter.scenario({
@@ -600,14 +600,14 @@ formatter.match({
   "location": "testerSteps.I_am_a_Manual_Tester(String,DataTable)"
 });
 formatter.result({
-  "duration": 208692,
+  "duration": 448836,
   "status": "passed"
 });
 formatter.match({
   "location": "testerSteps.I_apply_for_a_Job()"
 });
 formatter.result({
-  "duration": 33097,
+  "duration": 42129,
   "status": "passed"
 });
 formatter.match({
@@ -620,7 +620,7 @@ formatter.match({
   "location": "testerSteps.I_got_a_less_paid_job(String)"
 });
 formatter.result({
-  "duration": 87231,
+  "duration": 97059,
   "status": "passed"
 });
 formatter.match({
@@ -633,7 +633,7 @@ formatter.match({
   "location": "testerSteps.I_am_not_satisfied_with_my_salary(String)"
 });
 formatter.result({
-  "duration": 78951,
+  "duration": 90559,
   "status": "passed"
 });
 formatter.match({
@@ -646,7 +646,7 @@ formatter.match({
   "location": "testerSteps.my_parents_are_still_satisfied_with_the_salary(String)"
 });
 formatter.result({
-  "duration": 272985,
+  "duration": 53164,
   "status": "passed"
 });
 });
